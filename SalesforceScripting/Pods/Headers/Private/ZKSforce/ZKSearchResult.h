@@ -1,1 +1,0 @@
-../../../ZKSforce/zkSforce/ZKSearchResult.h

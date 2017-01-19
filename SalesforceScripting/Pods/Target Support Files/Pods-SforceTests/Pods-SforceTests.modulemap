@@ -1,0 +1,6 @@
+framework module Pods_SforceTests {
+  umbrella header "Pods-SforceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

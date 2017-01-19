@@ -1,1 +1,0 @@
-../../../ZKSforce/zkSforce/ZKSforceClient+zkAsyncQuery.h
