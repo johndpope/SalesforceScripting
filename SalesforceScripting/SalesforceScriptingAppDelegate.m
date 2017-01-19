@@ -28,8 +28,8 @@
 
 + (void)initialize {
 	NSMutableDictionary * defaults = [NSMutableDictionary dictionary];
-	NSString *prod = [NSString stringWithString:@"https://www.salesforce.com"];
-	NSString *test = [NSString stringWithString:@"https://test.salesforce.com"];
+	NSString *prod = [NSString stringWithFormat:@"https://login.salesforce.com"];
+	NSString *test = [NSString stringWithFormat:@"https://test.salesforce.com"];
 	
 	NSMutableArray * defaultServers = [NSMutableArray arrayWithObjects:prod, test, nil];
 	[defaults setObject:defaultServers forKey:@"servers"];

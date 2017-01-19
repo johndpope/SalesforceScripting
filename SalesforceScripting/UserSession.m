@@ -196,6 +196,8 @@
 }
 
 -(id)delete:(NSScriptCommand *)cmd {
+    return nil;
+    /*
 	NSArray *ids = [[cmd evaluatedArguments] objectForKey:@"Ids"];
 	@try {
 		[self addApiCall:@"delete" args:[NSString stringWithFormat:@"%d rows", [ids count]]];
@@ -204,7 +206,7 @@
 	} @catch (ZKSoapException *ex) {
 		[ex setErrorOnCommand:cmd];
 	}
-	return nil;
+	return nil;*/
 }
 
 @end
